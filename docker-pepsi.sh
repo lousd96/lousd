@@ -1,13 +1,3 @@
-#!/usr/bin/env bash
-PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
-export PATH
-
-#=================================================
-#	System Required: CentOS 6/7,Debian 8/9,Ubuntu 16+
-#	Description: 
-#	Version: 1.0.1
-#=================================================
-
 echo "#安装Docker";  
 yum install -y yum-utils device-mapper-persistent-data lvm2
 
